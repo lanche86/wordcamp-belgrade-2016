@@ -3,3 +3,7 @@ span.tix-ticket-excerpt {
   font-size: 14px;
   line-height: 1.4;
 }
+
+th.tix-column-description {
+  width: 60%;
+}
