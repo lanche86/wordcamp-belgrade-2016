@@ -1,0 +1,56 @@
+.site {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.nav-register-now {
+    position: fixed !important;
+    bottom: 20px;
+    right: 20px;
+    padding: 0 !important;
+
+    a {
+        font-size: 1rem;
+        padding: 12px 20px 12px 36px !important;
+        width: 188px;
+        border-radius: 2px;
+        text-align: center;
+        -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+        background-color: #DC6A36 !important;
+        border: 2px solid #DC6A36;
+        color: #fff !important;
+    }
+}
+
+.tix-column-description {
+    width: 60%;
+}
+
+.tix_tickets_table thead tr th:first-child {
+    width: 60%;
+}
+
+.comment .avatar, .tix_tickets_table td {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.75em;
+    table-layout: fixed;
+    width: 100%;
+}
+
+th {
+    font-size: 14px;
+}
+
+table tbody td, table thead th {
+    padding: 15px;
+}
+
+hr, table tbody tr:nth-child(odd) {
+    background: #eef2f2;
+}
