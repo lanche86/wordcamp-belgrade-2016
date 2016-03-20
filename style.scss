@@ -22,7 +22,7 @@
         transition: all .25s ease;
 
         &:hover {
-            background-color: darken(#007acc, 10%);
+            background-color: darken(#007acc, 10%) !important;
             border: 2px solid darken(#007acc, 10%);
         }
 
