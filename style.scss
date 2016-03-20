@@ -16,9 +16,15 @@
         text-align: center;
         -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
         box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-        background-color: #DC6A36 !important;
-        border: 2px solid #DC6A36;
+        background-color: #007acc !important;
+        border: 2px solid #007acc;
         color: #fff !important;
+        transition: all .25s ease;
+
+        &:hover {
+            background-color: darken(#007acc, 10%);
+            border: 2px solid darken(#007acc, 10%);
+        }
 
         &:before {
             content: "";
