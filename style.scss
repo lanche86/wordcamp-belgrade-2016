@@ -72,3 +72,13 @@ table tbody td, table thead th {
 hr, table tbody tr:nth-child(odd) {
     background: #eef2f2;
 }
+
+// Attendees
+
+.tix-last {
+    font-weight: bold;
+}
+
+#tix-attendees .tix-field {
+    box-shadow: none;
+}
