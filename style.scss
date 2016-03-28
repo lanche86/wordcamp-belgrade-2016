@@ -82,3 +82,9 @@ hr, table tbody tr:nth-child(odd) {
 #tix-attendees .tix-field {
     box-shadow: none;
 }
+
+.entry-title,
+.entry-title + .entry-meta,
+.entry-content > p:first-of-type {
+    font-family: 'Source Sans Pro', sans-serif;
+}
