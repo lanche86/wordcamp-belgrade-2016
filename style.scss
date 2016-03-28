@@ -86,5 +86,5 @@ hr, table tbody tr:nth-child(odd) {
 .entry-title,
 .entry-title + .entry-meta,
 .entry-content > p:first-of-type {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif !important;
 }
