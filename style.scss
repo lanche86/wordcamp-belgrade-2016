@@ -152,6 +152,7 @@ strong.tix-ticket-title {
 .site-description {
     display: block !important;
     color: #fff;
+    font-weight: 300 !important;
 }
 
 .entry-content, .entry-summary {
@@ -184,4 +185,9 @@ footer.entry-meta {
     line-height: 1.5 !important;
     margin: 3rem 0 0 !important;
     padding: 1.5rem 0 !important;
+}
+
+
+.site-info {
+    background: #364652 !important;
 }
