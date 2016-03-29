@@ -131,6 +131,7 @@ strong.tix-ticket-title {
 
 .entry-content a, .comment-content a {
     color: #2e99c9 !important;
+    font-weight: 600 !important;
 
     &:hover {
         color: #364652 !important;
@@ -168,4 +169,9 @@ article.page {
     @media screen and (min-width: 960px) {
         padding: 70px !important;
     }
+}
+
+footer.entry-meta .cat-links:before,
+footer.entry-meta .comments-link:before {
+    display: none !important;
 }
