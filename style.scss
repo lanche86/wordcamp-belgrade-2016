@@ -175,3 +175,12 @@ footer.entry-meta .cat-links:before,
 footer.entry-meta .comments-link:before {
     display: none !important;
 }
+
+footer.entry-meta {
+    border-bottom: 1px solid #b7b7b7 !important;
+    border-top: 1px solid #b7b7b7 !important;
+    color: inherit !important;
+    line-height: 1.5 !important;
+    margin: 3rem 0 0 !important;
+    padding: 1.5rem 0 !important;
+}
