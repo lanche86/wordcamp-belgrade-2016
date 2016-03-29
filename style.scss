@@ -115,6 +115,12 @@ strong.tix-ticket-title {
 
 .entry-title {
     color: #364652;
+
+    a {
+        &:hover {
+            color: #2e99c9;
+        }
+    }
 }
 
 .menu-main-menu-container {
