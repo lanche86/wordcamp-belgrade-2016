@@ -1,3 +1,8 @@
+body {
+    font-family: "Open Sans", sans-serif !important;
+    line-height: 1.4 !important;
+}
+
 .site {
     background-color: rgba(255, 255, 255, 0.9);
 }
@@ -87,8 +92,10 @@ hr, table tbody tr:nth-child(odd) {
 h1, h2, h3, h4, h5, h6,
 .entry-title,
 .entry-title + .entry-meta,
-.entry-content > p:first-of-type {
-    font-family: 'Roboto Slab', serif !important;
+.entry-content > p:first-of-type,
+strong.tix-ticket-title {
+    font-family: 'Open Sans', serif !important;
+    font-weight: 600 !important;
 }
 
 .entry-title + .entry-meta {
@@ -113,10 +120,6 @@ h1, h2, h3, h4, h5, h6,
 .site-description {
     display: block !important;
     color: #fff;
-}
-
-strong.tix-ticket-title {
-    font-family: 'Roboto Slab', serif !important;
 }
 
 .entry-content, .entry-summary {
