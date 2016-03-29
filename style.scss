@@ -129,6 +129,14 @@ strong.tix-ticket-title {
     }
 }
 
+.entry-content a, .comment-content a {
+    color: #2e99c9 !important;
+
+    &:hover {
+        color: #364652 !important;
+    }
+}
+
 .menu-main-menu-container {
     text-align: center;
 }
