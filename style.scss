@@ -111,6 +111,8 @@ strong.tix-ticket-title {
 
 .entry-title + .entry-meta {
     font-size: 1rem !important;
+    color: inherit !important;
+    font-weight: normal !important;
 }
 
 .entry-title {
@@ -118,7 +120,7 @@ strong.tix-ticket-title {
 
     a {
         &:hover {
-            color: #2e99c9;
+            color: #2e99c9 !important;
         }
     }
 }
