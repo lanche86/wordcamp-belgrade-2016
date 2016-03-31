@@ -595,8 +595,8 @@ article.post,article.page {
 
 .entry-content label,.comment-content label {
     display: block;
-    font-weight: 700;
-    font-size: 1.125rem;
+    font-weight: normal !important;
+    font-size: 1rem !important;
     line-height: 1.125;
     margin: .75rem 0 .33333rem
 }
@@ -631,6 +631,12 @@ article.post,article.page {
 .entry-content .contact-submit,.comment-content .contact-submit {
     margin: 1rem 0;
     text-align: center
+}
+
+.entry-content p img,
+.entry-content div img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer.entry-meta {
