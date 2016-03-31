@@ -745,9 +745,9 @@ footer.entry-meta .sep {
 }
 
 #primary-sidebar .widget {
-    background: url('https://2015.la.wordcamp.org/files/2015/05/divider-widget.png') 50% 100% no-repeat;
-    margin: 0 0 2.53125rem;
-    padding-bottom: 3.79688rem
+    background: none !important;
+    margin: 0 0 1.5rem !important;
+    padding-bottom: 1rem !important
 }
 
 #primary-sidebar input[type='text'],#primary-sidebar input[type='email'] {
