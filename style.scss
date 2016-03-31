@@ -229,7 +229,11 @@ input[type='submit']:hover {
 }
 
 .main-navigation ul > li.nav-register-now a {
-    color: #fff !important
+    color: #fff !important;
+
+    &:before {
+        content: '' !important;
+    }
 }
 
 .main-navigation ul > li:first-child a:before {
