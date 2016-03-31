@@ -208,7 +208,7 @@ input[type='submit']:hover {
 }
 
 .main-navigation ul > li a {
-    color: #62aa9f;
+    color: #364652 !important;
     display: block;
     padding: 1.6875rem .66667rem 1.6875rem 0;
     text-decoration: none;
@@ -220,13 +220,13 @@ input[type='submit']:hover {
 }
 
 .main-navigation ul > li a:before {
-    color: #e3d6ca;
+    color: #364652 !important;
     content: '|';
     margin-right: .75rem
 }
 
 .main-navigation ul > li a:hover {
-    color: #e3463a
+    color: #2e99c9 !important
 }
 
 .main-navigation ul > li:first-child a:before {
