@@ -212,7 +212,7 @@ input[type='submit']:hover {
     display: block;
     padding: 1.6875rem .66667rem 1.6875rem 0;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none !important;
     -moz-transition: color 300ms;
     -o-transition: color 300ms;
     -webkit-transition: color 300ms;
@@ -225,6 +225,7 @@ input[type='submit']:hover {
     margin-right: .75rem
 }
 
+.main-navigation ul > li.current-menu-item a,
 .main-navigation ul > li a:hover {
     color: #2e99c9 !important
 }
