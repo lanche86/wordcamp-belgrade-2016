@@ -118,7 +118,7 @@ img {
 }
 
 a {
-    color: #83bcb3;
+    color: #45a87c !important;
     text-decoration: none
 }
 
@@ -132,7 +132,7 @@ input[type='text'],input[type='email'],textarea {
 }
 
 input[type='submit'] {
-    background: #83bcb3;
+    background: #45a87c !important;
     border: 0 none;
     border-radius: 4px;
     color: #e6f2f0;
@@ -158,9 +158,9 @@ input[type='submit']:hover {
 }
 
 .site-header {
-    background: #83bcb3;
+    background: #45a87c !important;
     background-size: cover;
-    border-top: 5px solid #83bcb3;
+    border-top: 5px solid #45a87c !important;
     -moz-box-shadow: inset 0 10px 60px rgba(126,99,88,0.5);
     -webkit-box-shadow: inset 0 10px 60px rgba(126,99,88,0.5);
     box-shadow: inset 0 10px 60px rgba(126,99,88,0.5);
@@ -250,7 +250,7 @@ input[type='submit']:hover {
     height: 0;
     width: 0;
     border: 4px solid transparent;
-    border-top-color: #83bcb3
+    border-top-color: #45a87c !important;
 }
 
 .main-navigation ul > li.menu-item-has-children > a:hover:after {
@@ -291,7 +291,7 @@ input[type='submit']:hover {
 }
 
 .main-small-navigation .menu-primary-container > ul {
-    border-bottom: 5px solid #83bcb3;
+    border-bottom: 5px solid #45a87c !important;
     display: none
 }
 
@@ -467,7 +467,7 @@ article.post,article.page {
 }
 
 .entry-title a:hover {
-    color: #83bcb3
+    color: #45a87c !important;
 }
 
 .entry-title + .entry-meta {
@@ -718,7 +718,7 @@ footer.entry-meta .sep {
 }
 
 .comment-reply-link {
-    background: #83bcb3;
+    background: #45a87c !important;
     border: 0 none;
     border-radius: 4px;
     color: #e6f2f0;
@@ -803,7 +803,7 @@ footer.entry-meta .sep {
 }
 
 .widget li a {
-    color: #83bcb3;
+    color: #45a87c !important;
     text-decoration: none;
     -moz-transition: color 300ms;
     -o-transition: color 300ms;
@@ -1002,7 +1002,7 @@ body div.sharedaddy h3.sd-title:before {
 }
 
 .wcpt-schedule .global-session .wcpt-time {
-    background: #83bcb3;
+    background: #45a87c !important;
     color: #fff
 }
 
@@ -1023,7 +1023,7 @@ body div.sharedaddy h3.sd-title:before {
 }
 
 .wcpt-schedule .wcpt-session-speakers a {
-    color: #83bcb3
+    color: #45a87c !important;
 }
 
 .wcpt-schedule a {
@@ -1035,8 +1035,8 @@ body div.sharedaddy h3.sd-title:before {
 }
 
 .sponsor-level-title {
-    border-bottom: 5px solid #83bcb3;
-    border-top: 5px solid #83bcb3;
+    border-bottom: 5px solid #45a87c !important;
+    border-top: 5px solid #45a87c !important;
     color: #0e5a6a;
     padding: .5rem
 }
