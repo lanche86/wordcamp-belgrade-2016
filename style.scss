@@ -889,7 +889,7 @@ footer.entry-meta .sep {
 }
 
 .site-info .site-info-generator {
-    background: url('https://2016.belgrade.wordcamp.org/files/2016/03/wordcamp-belgrade-logo.png') 50% 0 no-repeat;
+    background: url('https://2016.belgrade.wordcamp.org/files/2016/03/wordcamp-belgrade-logo.png') 50% 0 no-repeat !important;
     color: #fff;
     display: block;
     padding-top: 10rem !important;
@@ -897,11 +897,11 @@ footer.entry-meta .sep {
 }
 
 .site-info .site-info-generator:hover {
-    color: #fdc17b
+    color: #f5b635 !important
 }
 
 .site-info .site-info-network {
-    background: url('https://2015.la.wordcamp.org/files/2015/05/header-ribbon.png') 50% 0 no-repeat;
+    // background: url('https://2015.la.wordcamp.org/files/2015/05/header-ribbon.png') 50% 0 no-repeat;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
