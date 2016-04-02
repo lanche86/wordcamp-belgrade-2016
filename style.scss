@@ -892,7 +892,8 @@ footer.entry-meta .sep {
     background: url('https://2016.belgrade.wordcamp.org/files/2016/03/wordcamp-belgrade-logo.png') 50% 0 no-repeat;
     color: #fff;
     display: block;
-    padding-top: 5.0625rem
+    padding-top: 10rem !important;
+    background-size: 100px auto !important;
 }
 
 .site-info .site-info-generator:hover {
