@@ -293,7 +293,7 @@ input[type='submit']:hover {
 
 .main-small-navigation {
     background: rgba(255,255,255,0.95);
-    position: absolute;
+    position: relative !important;
     width: 100%
 }
 
