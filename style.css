@@ -808,7 +808,7 @@ body div.sharedaddy h3.sd-title:before {
   background: #0e5a6a;
   border: 1px solid #fff;
   color: #fff;
-  font-family: "Crete Round", serif; }
+  font-family: "Open Sans", sans-serif !important; }
 
 .wcpt-schedule .wcpt-time {
   background: #fff0df;
