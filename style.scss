@@ -1048,6 +1048,10 @@ body div.sharedaddy h3.sd-title:before {
     color: #e97067;
 }
 
+table.wcpt-schedule tbody tr:nth-child(odd) {
+    background: #fffcf9 !important;
+}
+
 .sponsor-level-title {
     color: #0e5a6a;
     padding: 0.5rem;
@@ -1452,3 +1456,5 @@ footer.entry-meta {
         }
     }
 }
+
+
