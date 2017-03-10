@@ -325,15 +325,15 @@ input[type='submit']:hover {
 #after-header-widgets {
   margin: 1.6875rem auto;
   max-width: 62rem;
-  -webkit-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
-  -moz-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
-  box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
 }
 
 #after-header-widgets:after {
   clear: both;
   content: '';
   display: table;
+  -webkit-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
+  -moz-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
+  box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
 }
 
 #after-header-widgets .widget {
