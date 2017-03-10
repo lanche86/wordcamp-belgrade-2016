@@ -341,9 +341,9 @@ input[type='submit']:hover {
   margin: 0 auto 1rem;
   padding: 0 1rem;
   width: 50%;
-  -webkit-box-shadow: 6px 6px 8px -1px rgba(0,0,0,0.06);
--moz-box-shadow: 6px 6px 8px -1px rgba(0,0,0,0.06);
-box-shadow: 6px 6px 8px -1px rgba(0,0,0,0.06);
+  -webkit-box-shadow: 6px 10px 8px -1px rgba(0,0,0,0.06);
+-moz-box-shadow: 6px 10px 8px -1px rgba(0,0,0,0.06);
+box-shadow: 6px 10px 8px -1px rgba(0,0,0,0.06);
 }
 
 @media screen and (min-width: 576px) {
