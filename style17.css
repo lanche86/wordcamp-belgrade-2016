@@ -331,15 +331,12 @@ input[type='submit']:hover {
   clear: both;
   content: '';
   display: table;
-  -webkit-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
-  -moz-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
-  box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
 }
 
 #after-header-widgets .widget {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  -webkit-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
+  -moz-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
+  box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
   float: left;
   margin: 0 auto 1rem;
   padding: 0 1rem;
