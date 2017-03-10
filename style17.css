@@ -104,7 +104,7 @@ body {
   background: #ece3db;
   background-image: url("https://2015.la.wordcamp.org/files/2015/05/otis-redding.png");
   color: #604b43;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
   font-size: 1rem;
 }
 
