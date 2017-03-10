@@ -405,7 +405,7 @@ input[type='submit']:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Crete Round", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #main {
@@ -487,7 +487,7 @@ article.post, article.page {
 
 .entry-title + .entry-meta {
   color: #cfc0ba;
-  font-family: "Crete Round", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -572,7 +572,7 @@ article.post, article.page {
 .entry-content blockquote, .comment-content blockquote {
   border-bottom: 1px solid #1aaacd;
   border-top: 1px solid #1aaacd;
-  font-family: "Crete Round", serif;
+  font-family: "Roboto", sans-serif;
   padding: 1rem;
 }
 
@@ -621,7 +621,7 @@ article.post, article.page {
   -o-transition: all 300ms;
   -webkit-transition: all 300ms;
   transition: all 300ms;
-  width: 66%;
+  width: 66% !important;
 }
 
 .entry-content input[type='text']:focus, .entry-content input[type='email']:focus, .entry-content textarea:focus, .comment-content input[type='text']:focus, .comment-content input[type='email']:focus, .comment-content textarea:focus {
