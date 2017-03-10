@@ -325,6 +325,9 @@ input[type='submit']:hover {
 #after-header-widgets {
   margin: 1.6875rem auto;
   max-width: 62rem;
+  -webkit-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
+  -moz-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
+  box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
 }
 
 #after-header-widgets:after {
@@ -341,9 +344,7 @@ input[type='submit']:hover {
   margin: 0 auto 1rem;
   padding: 0 1rem;
   width: 50%;
-  -webkit-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
-  -moz-box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
-  box-shadow: 4px 4px 3px -1px rgba(0,0,0,0.06);
+  
 }
 
 @media screen and (min-width: 576px) {
