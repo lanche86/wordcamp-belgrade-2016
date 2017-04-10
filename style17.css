@@ -753,6 +753,50 @@ footer.entry-meta .sep {
   margin: 0 0 1rem;
 }
 
+#commentform {
+	max-width: 600px;
+}
+
+#commentform > p {
+  margin-bottom: 0.566rem;
+}
+
+#commentform label {
+  display: block;
+  margin-bottom: 0.566rem;
+}
+
+#commentform textarea,
+#commentform input {
+    -webkit-appearance: none;
+	border-radius: 0;
+}
+
+#commentform input:not(#submit),
+#commentform textarea {
+	padding: 0.566rem 0.833rem;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	border: 1px solid rgb(169, 169, 169);
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+#commentform .form-submit {
+	margin-top: 1.389em;
+	text-align: right;
+	width: 100%;
+}
+
+#commentform #submit {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: none;
+}
+
 #primary-sidebar .widget {
   background: none !important;
   margin: 0 0 1.5rem !important;
